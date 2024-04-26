@@ -25,6 +25,7 @@ services:
     environment:
       DNS1: "1.0.0.1"
       DNS2: "1.1.1.1"
+      CACHESIZE: "150"
     ports:
       - 53:53/udp
       - 53:53/tcp
